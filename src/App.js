@@ -2,8 +2,10 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Contacts from './pages/Contact/Contacts';
 import Home from './pages/Home/Home';
-import ProjectDetails from './pages/Home/ProjectDetails';
 import Header from './shared/Header';
+import Blog from './pages/Blog/Blog'
+import About from './pages/Home/About';
+import NotFound from './shared/NotFound';
 
 function App() {
   return (
@@ -12,10 +14,10 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
-          <Route path="/ProjectsDetails/:id" element={<ProjectDetails />} />
-          <Route path="/about" element={<Home />} />
-          <Route path="/blog" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/blog" element={<Blog />} />
           <Route path="/contacts" element={<Contacts />} />
+          <Route path='*' element={<NotFound />} />
         </Routes>
       </Header>
     </div>

@@ -1,0 +1,61 @@
+[
+    {   
+        "id": 1,
+        "img": "https://i.ibb.co/n7RSyP7/ayrafitness.png",
+        "name": "Ayra Fitness",
+        "images": [
+            "https://i.ibb.co/hHqR7bF/fitness.png",
+            "https://i.ibb.co/3WhHwPR/fitSer.png",
+            "https://i.ibb.co/31LnDWG/order.png"
+        ],
+        "Client": "https://github.com/Hossain302044/ayrafitness",
+        "link": "https://ayra-fitness.web.app/",
+        "Details": "Fitness Portfolio Website Multi Page",
+        "tech": [
+            "react js", "Bootstrap", "HTML"
+        ],
+        "feature":[
+            "Responsive Design","Farebase login","Easy Update","Order","Creative Design"
+        ]
+    },
+    {   
+        "id": 2,
+        "img": "https://i.ibb.co/j4gy3VY/laptop-pro.png",
+        "name": "Laptop Pro",
+        "server":"https://github.com/Hossain302044/laptopPro-server",
+        "Client": "https://github.com/Hossain302044/laptopPro",
+        "images": [
+            "https://i.ibb.co/0QJHvxZ/laptop-1.png",
+            "https://i.ibb.co/LRpMvD5/laptop-2.png",
+            "https://i.ibb.co/c1vsGKb/laptop-3.png"
+        ],
+        "link": "https://warehouse-management-side.web.app/",
+        "Details": "Laptop House Manage Website B2B Business System",
+        "Mern": "MERN",
+        "tech": [
+            "React JS", "Tailwind CSS", "HTML", "Node JS","Express JS","Firebase"
+        ],
+        "feature":[
+            "Responsive Design","Farebase login","Easy Update","Order","Creative Design","Dashboard","User Product Update"
+        ]
+    },
+    {   
+        "id": 3,
+        "img": "https://i.ibb.co/9cXLQrG/toolmaster.png",
+        "name": "ToolsMaster",
+        "server":"https://github.com/Hossain302044/toolmaster-server",
+        "Client": "https://github.com/Hossain302044/toolmasters",
+        "images": [
+            "https://i.ibb.co/PZG2sn5/manhome.png","https://i.ibb.co/DY1V3W1/user-1.png","https://i.ibb.co/LQpdjfx/service-1.png"
+        ],
+        "link": "https://manufacturer-website-cli-62442.firebaseapp.com/",
+        "Details": "Business Management System Service and Sale Note With Payment Get way.",
+        "Mern": "MERN",
+        "tech": [
+            "React JS", "Tailwind CSS", "HTML", "Node JS","Express JS","stripe","Firebase","Admin Role"
+        ],
+        "feature":[
+            "Responsive Design","Farebase login","Easy Update","Order","Creative Design","Dashboard","User Product Update","payment system","admin Role","Order Calcel"
+        ]
+    }
+]

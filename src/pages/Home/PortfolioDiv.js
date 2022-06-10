@@ -32,8 +32,8 @@ const PortfolioDiv = ({ project }) => {
                 <div className="card-actions mt-10">
                     <label
                         onClick={() => viewProjects(id)}
-                        for="my-modal-5"
-                        class="btn modal-button btn-primary">View Project
+                        htmlFor="my-modal-5"
+                        className="btn modal-button btn-primary">View Project
                     </label>
                 </div>
                 {

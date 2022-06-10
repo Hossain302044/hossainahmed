@@ -2,12 +2,13 @@ import React from 'react';
 import emailjs from 'emailjs-com';
 
 const Contact = () => {
-
     const handleSubmit = event => {
         event.preventDefault();
         emailjs.sendForm('service_39mq35r', 'template_ksz25uh', event.target, 'O9FJduJV2BBALrIwQ').then(res => {
             console.log(res);
+            window.location.reload(false);
         }).catch(err => console.log(err));
+
     };
 
     return (

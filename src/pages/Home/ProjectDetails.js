@@ -8,10 +8,10 @@ const ProjectDetails = ({ project, iD }) => {
     }
     return (
         <div>
-            <input type="checkbox" id="my-modal-5" class="modal-toggle" />
-            <div class="modal">
-                <div class="modal-box w-11/12 max-w-5xl">
-                    <label for="my-modal-5" onClick={handleReload} class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+            <input type="checkbox" id="my-modal-5" className="modal-toggle" />
+            <div className="modal">
+                <div className="modal-box w-11/12 max-w-5xl">
+                    <label htmlFor="my-modal-5" onClick={handleReload} className="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
                     <div className='mt-5'>
                         <div className='bg-secondary p-6 mb-6 flex justify-between items-center'>
                             <div>
@@ -19,11 +19,11 @@ const ProjectDetails = ({ project, iD }) => {
                                 <p className='text-white mt-5'>{Details}</p>
                             </div>
                             <div className='space-x-5'>
-                                <a href={link}><button class="badge badge-primary">Live Demo</button></a>
-                                <a href={Client}><button class="badge badge-primary">Client Site Code</button></a>
+                                <a href={link}><button className="badge badge-primary">Live Demo</button></a>
+                                <a href={Client}><button className="badge badge-primary">Client Site Code</button></a>
                                 {
                                     server &&
-                                    <a href={server}><button class="badge badge-primary">Server Code</button></a>
+                                    <a href={server}><button className="badge badge-primary">Server Code</button></a>
                                 }
                             </div>
                         </div>
